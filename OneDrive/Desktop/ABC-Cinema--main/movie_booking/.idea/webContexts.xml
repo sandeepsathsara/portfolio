@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/addshowtime.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/movies.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/viewshows.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/auth/password-reset-verification.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/auth" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/auth/sign-in.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/auth" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/auth/sign-up.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/auth" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/client/movie-details.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/client" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/client/seatbooking.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>

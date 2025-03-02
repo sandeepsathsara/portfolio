@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>ABC Cinema - Thor Love & Thunder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0-beta.2/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body class="font-roboto bg-gradient-to-b from-black to-indigo-800 text-white">
+<header class="flex justify-between items-center px-10 py-5 bg-black bg-opacity-90">
+    <div class="text-lg font-bold text-yellow-400">ABC Cinema</div>
+    <nav>
+        <ul class="flex list-none">
+            <li class="mx-3">
+                <a href="movies.jsp" class="text-white no-underline text-base font-medium">Movies</a>
+            </li>
+            <li class="mx-3">
+                <a href="bookings.jsp" class="text-white no-underline text-base font-medium">Bookings</a>
+            </li>
+            <li class="mx-3">
+                <a href="contact.jsp" class="text-white no-underline text-base font-medium">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="flex items-center">
+        <div class="flex items-center cursor-pointer">
+            <img src="https://via.placeholder.com/32" alt="Profile Picture" class="w-8 h-8 rounded-full bg-gray-300 mr-2"/>
+            <span>Hello, <%= firstName %>!</span>
+        </div>
+    </div>
+</header>
+
+<section class="py-12 bg-cover bg-center" style="background-image: url('https://i.ibb.co/0tHg0ST/image-1-1-2.png');">
+    <div class="flex gap-8 px-12">
+        <div class="w-72">
+            <img src="https://i.ibb.co/0tHg0ST/image-1-1-2.png" alt="Thor Love & Thunder Poster" class="rounded-lg"/>
+        </div>
+        <div class="flex-1 text-white">
+            <h1 class="text-6xl mb-2">Thor: Love & Thunder</h1>
+            <div class="flex gap-2 items-center mb-5">
+                <span class="bg-white text-black py-1 px-3 rounded">PG-13</span>
+                <span class="text-yellow-400">⭐ 7.5/10</span>
+                <span class="text-sm text-white">Action, Adventure, Comedy</span>
+            </div>
+            <p class="mb-5">
+                Thor embarks on a journey unlike anything he's ever faced — a quest for inner peace.
+            </p>
+            <div class="flex gap-5">
+                <a href="book-ticket.jsp" class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-700">Book Now</a>
+                <a href="watch-trailer.jsp" class="bg-white text-black py-2 px-4 rounded hover:bg-gray-300">Watch Trailer</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="px-10 py-5 text-center bg-black bg-opacity-80 mt-12">
+    <p>&copy; 2024 ABC Cinema. All rights reserved. | <a href="privacy.jsp" class="text-yellow-400 no-underline">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
